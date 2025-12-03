@@ -1,0 +1,199 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Гаджеты 21 века: Транспорт</title>
+    <link rel="stylesheet" href="../css/style1.css">
+    <link rel="icon" type="image/x-icon" href="../icon/i.jpg">
+</head>
+<body>
+    <div class="scrolling-bg"></div>
+    <!-- __________________________________________________Главное меню___________________________________________________-->
+    <div class="content">
+        <nav class="navbar">
+            <a href="../index.html">Главная</a>
+            <a href="../aboutus.html">О нас</a>
+            <a href="../contacts.html">Контакты</a>
+            <a href="../korzina.html">Корзина(<span id="cartCounter">0</span>)</a>
+        </nav>
+
+        <!-- _______________________________________Кнопки каталога_________________________________________ -->
+        <div class="categories-grid">
+            <a href="../catalog/phones.html" class="category-card">
+                <div class="card-image">
+                    <img src="../images/smartphone.png" alt="Смартфоны">
+                </div>
+                <div class="card-title">Смартфоны и Коммуникация</div>
+            </a>
+
+            <a href="../catalog/pc.html" class="category-card">
+                <div class="card-image">
+                    <img src="../images/pc.jpg" alt="Компьютеры">
+                </div>
+                <div class="card-title">Компьютеры и Работа</div>
+            </a>
+
+            <a href="../catalog/audio.html" class="category-card">
+                <div class="card-image">
+                    <img src="../images/audiotechn.jpg" alt="Аудиотехника">
+                </div>
+                <div class="card-title">Аудиотехника</div>
+            </a>
+
+            <a href="../catalog/smart_home.html" class="category-card">
+                <div class="card-image">
+                    <img src="../images/cleverhome.jpg" alt="Умный дом">
+                </div>
+                <div class="card-title">Умный Дом и IoT</div>
+            </a>
+
+            <a href="../catalog/console.html" class="category-card">
+                <div class="card-image">
+                    <img src="../images/console.jpg" alt="Развлечения">
+                </div>
+                <div class="card-title">Развлечения и Медиа</div>
+            </a>
+
+            <a href="../catalog/transport.html" class="category-card">
+                <div class="card-image">
+                    <img src="../images/electroscooter.png" alt="Транспорт">
+                </div>
+                <div class="card-title">Транспорт и Мобильность</div>
+            </a>
+
+            <a href="../catalog/fitness.html" class="category-card">
+                <div class="card-image">
+                    <img src="../images/fitness.jpg" alt="Здоровье">
+                </div>
+                <div class="card-title">Здоровье и Фитнес</div>
+            </a>
+        </div>
+        <!--_________________________________________________________________Основной блок текста_______________________________________________________________________________-->
+        <h1>Немного информации</h1>
+        <div class="content-block">
+            <h2 style="color: black;">Транспорт будущего: Умное перемещение</h2>
+            <p>
+                Современные транспортные гаджеты кардинально меняют представление о городской мобильности. От электрических самокатов до умных велосипедов - технологии делают перемещение по городу быстрым,
+                экологичным и увлекательным.
+            </p>
+            <p>
+                Электрические самокаты с мощными двигателями и большим запасом хода позволяют преодолевать значительные расстояния без физических усилий. Умные системы стабилизации и подвески обеспечивают
+                комфортную езду даже по неровным поверхностям.
+            </p>
+            <p>
+                Электровелосипеды с сенсорными дисплеями и навигацией стали популярным выбором для городских поездок, сочетая преимущества традиционного велосипеда с помощью электромотора при подъемах
+                и длительных маршрутах.
+            </p>
+            <p>
+                Гироскутеры и моноколеса с системами самобалансировки предлагают уникальный способ передвижения, а умные рюкзаки с встроенными зарядными устройствами и GPS-трекерами делают каждую поездку
+                безопасной.
+            </p>
+        </div>
+        <div class="content-block">
+            <p>Далее будут представлены товары, которые, возможно, смогут вас заинтересовать.</p>
+        </div>
+        <!--_______________________________________________________________________Товары__________________________________________________________________-->
+        <!--Xiaomi Electric Scooter-->
+        <div class="content-block">
+            <div class="product-card" style="display: flex; align-items: center; gap: 30px; padding: 20px; background: #f8f9fa; border-radius: 10px;">
+                <div style="flex: 1;">
+                    <h2 style="color: black; margin: 0 0 10px 0;">Xiaomi Mi Electric Scooter 4 Pro</h2>
+                    <p style="margin: 0 0 8px 0; color: #666;">45 км на одной зарядке с мощным мотором</p>
+                    <p style="margin: 0 0 15px 0; font-size: 18px;"><strong>Цена: 39 990 ₽</strong></p>
+                    <button onclick="addToCart({
+    id: 'xiaomi-scooter-4pro',
+    name: 'Xiaomi Mi Electric Scooter 4 Pro',
+    price: 39990
+})" class="form-button" style="background: #4CAF50; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;">
+                        Добавить в корзину
+                    </button>
+                </div>
+                <img src="../imagesSales/xiaomiScooter.jpg" alt="Xiaomi Mi Electric Scooter 4 Pro"
+                     style="width: 180px; height: 180px; object-fit: cover; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+            </div>
+        </div>
+
+        <!--Segway Ninebot-->
+        <div class="content-block">
+            <div class="product-card" style="display: flex; align-items: center; gap: 30px; padding: 20px; background: #f8f9fa; border-radius: 10px;">
+                <div style="flex: 1;">
+                    <h2 style="color: black; margin: 0 0 10px 0;">Segway Ninebot E45E</h2>
+                    <p style="margin: 0 0 8px 0; color: #666;">Премиальный электросамокат с подвеской</p>
+                    <p style="margin: 0 0 15px 0; font-size: 18px;"><strong>Цена: 54 990 ₽</strong></p>
+                    <button onclick="addToCart({
+    id: 'segway-e45e',
+    name: 'Segway Ninebot E45E',
+    price: 54990
+})" class="form-button" style="background: #4CAF50; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;">
+                        Добавить в корзину
+                    </button>
+                </div>
+                <img src="../imagesSales/segway.jpg" alt="Segway Ninebot E45E"
+                     style="width: 180px; height: 180px; object-fit: cover; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+            </div>
+        </div>
+
+        <!--Xiaomi E-Bike-->
+        <div class="content-block">
+            <div class="product-card" style="display: flex; align-items: center; gap: 30px; padding: 20px; background: #f8f9fa; border-radius: 10px;">
+                <div style="flex: 1;">
+                    <h2 style="color: black; margin: 0 0 10px 0;">Xiaomi Himo C20</h2>
+                    <p style="margin: 0 0 8px 0; color: #666;">Доберитесь куда угодно: хоть в гору, хоть к бабушке на метро</p>
+                    <p style="margin: 0 0 15px 0; font-size: 18px;"><strong>Цена: 89 990 ₽</strong></p>
+                    <button onclick="addToCart({
+    id: 'xiaomi-ebike',
+    name: 'Xiaomi Himo C20',
+    price: 89990
+})" class="form-button" style="background: #4CAF50; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;">
+                        Добавить в корзину
+                    </button>
+                </div>
+                <img src="../imagesSales/ebike.jpg" alt="Xiaomi Himo C20"
+                     style="width: 180px; height: 180px; object-fit: cover; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+            </div>
+        </div>
+
+        <!--Inmotion V11-->
+        <div class="content-block">
+            <div class="product-card" style="display: flex; align-items: center; gap: 30px; padding: 20px; background: #f8f9fa; border-radius: 10px;">
+                <div style="flex: 1;">
+                    <h2 style="color: black; margin: 0 0 10px 0;">Inmotion V11</h2>
+                    <p style="margin: 0 0 8px 0; color: #666;">Моноколесо с подвеской для комфортной езды</p>
+                    <p style="margin: 0 0 15px 0; font-size: 18px;"><strong>Цена: 129 990 ₽</strong></p>
+                    <button onclick="addToCart({
+    id: 'inmotion-v11',
+    name: 'Inmotion V11',
+    price: 129990
+})" class="form-button" style="background: #4CAF50; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;">
+                        Добавить в корзину
+                    </button>
+                </div>
+                <img src="../imagesSales/monowheel.jpg" alt="Inmotion V11"
+                     style="width: 180px; height: 180px; object-fit: cover; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+            </div>
+        </div>
+    </div>
+
+    <!-- ___________________________________________________________________________Боковое меню_____________________________________________________________________-->
+    <button class="menu-toggle" id="menuToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <div class="sidebar" id="sidebar">
+        <nav class="sidebar-nav">
+            <a href="../index.html">Главная</a>
+            <a href="../aboutus.html">О нас</a>
+            <a href="../contacts.html">Контакты</a>
+            <a href="../korzina.html">Корзина(<span id="cartCounter">0</span>)</a>
+        </nav>
+    </div>
+
+    <!--__________________________________________________ Кнопка "Вверх"________________________________________ -->
+    <button class="scroll-to-top" title="Вернуться наверх">↑</button>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

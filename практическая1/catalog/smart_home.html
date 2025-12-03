@@ -1,0 +1,195 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Гаджеты 21 века:Умный Дом</title>
+    <link rel="stylesheet" href="../css/style1.css">
+    <link rel="icon" type="image/x-icon" href="../icon/i.jpg">
+</head>
+<body>
+    <div class="scrolling-bg"></div>
+    <!-- __________________________________________________Главное меню___________________________________________________-->
+    <div class="content">
+        <nav class="navbar">
+            <a href="../index.html">Главная</a>
+            <a href="../aboutus.html">О нас</a>
+            <a href="../contacts.html">Контакты</a>
+            <a href="../korzina.html">Корзина(<span id="cartCounter">0</span>)</a>
+        </nav>
+
+        <!-- _______________________________________Кнопки каталога_________________________________________ -->
+        <div class="categories-grid">
+            <a href="../catalog/phones.html" class="category-card">
+                <div class="card-image">
+                    <img src="../images/smartphone.png" alt="Смартфоны">
+                </div>
+                <div class="card-title">Смартфоны и Коммуникация</div>
+            </a>
+
+            <a href="../catalog/pc.html" class="category-card">
+                <div class="card-image">
+                    <img src="../images/pc.jpg" alt="Компьютеры">
+                </div>
+                <div class="card-title">Компьютеры и Работа</div>
+            </a>
+
+            <a href="../catalog/audio.html" class="category-card">
+                <div class="card-image">
+                    <img src="../images/audiotechn.jpg" alt="Аудиотехника">
+                </div>
+                <div class="card-title">Аудиотехника</div>
+            </a>
+
+            <a href="../catalog/smart_home.html" class="category-card">
+                <div class="card-image">
+                    <img src="../images/cleverhome.jpg" alt="Умный дом">
+                </div>
+                <div class="card-title">Умный Дом и IoT</div>
+            </a>
+
+            <a href="../catalog/console.html" class="category-card">
+                <div class="card-image">
+                    <img src="../images/console.jpg" alt="Развлечения">
+                </div>
+                <div class="card-title">Развлечения и Медиа</div>
+            </a>
+
+            <a href="../catalog/transport.html" class="category-card">
+                <div class="card-image">
+                    <img src="../images/electroscooter.png" alt="Транспорт">
+                </div>
+                <div class="card-title">Транспорт и Мобильность</div>
+            </a>
+
+            <a href="../catalog/fitness.html" class="category-card">
+                <div class="card-image">
+                    <img src="../images/fitness.jpg" alt="Здоровье">
+                </div>
+                <div class="card-title">Здоровье и Фитнес</div>
+            </a>
+        </div>
+        <!--_________________________________________________________________Основной блок текста_______________________________________________________________________________-->
+        <h1>Немного информации</h1>
+        <div class="content-block">
+            <h2 style="color: black;">Умный дом: Спокойствие и безопасность</h2>
+            <p>
+                Умный дом представляет собой комплексную систему автоматизации жилого пространства, где различные устройства объединены в единую сеть для повышения комфорта, безопасности и
+                энергоэффективности. Современные системы умного дома позволяют управлять освещением, климатом, безопасностью и бытовой техникой с помощью смартфона или голосовых команд.
+            </p>
+            <p>
+                Основу таких систем составляют умные розетки, которые позволяют дистанционно контролировать питание обычных приборов, и датчики движения, автоматически включающие свет
+                при вашем появлении. Умные термостаты обучаются вашим привычкам и оптимизируют температуру в помещениях, экономя до 30% энергии.
+                Системы безопасности включают умные камеры с распознаванием лиц, датчики открытия окон и дверей, а также сирены, которые активируются при несанкционированном проникновении.
+                Голосовые помощники типа Алисы или Google Assistant становятся центральным элементом управления, позволяя отдавать команды естественным языком.
+            </p>
+            <p>Особую популярность набирают умные кухонные приборы — холодильники, которые следят за сроком годности продуктов, и кофеварки, готовящие напиток к вашему пробуждению.</p>
+            <p>Технологии умного дома постоянно развиваются, интегрируя искусственный интеллект для прогнозирования потребностей пользователя и создания по-настоящему персональной жилой среды.</p>
+        </div>
+        <div class="content-block">
+            <p>Далее будут представлены товары, которые, возможно, смогут вас заинтересовать.</p>
+        </div>
+        <!--_______________________________________________________________________Товары__________________________________________________________________-->
+        <!--Колонка-->
+        <div class="content-block">
+            <div class="product-card" style="display: flex; align-items: center; gap: 30px; padding: 20px; background: #f8f9fa; border-radius: 10px;">
+                <div style="flex: 1;">
+                    <h2 style="color: black; margin: 0 0 10px 0;">Умная колонка Яндекс Станция</h2>
+                    <p style="margin: 0 0 8px 0; color: #666;">Управляйте домом голосом с Алисой</p>
+                    <p style="margin: 0 0 15px 0; font-size: 18px;"><strong>Цена: 13 855 ₽</strong></p>
+                    <button onclick="addToCart({
+        id: 'yandex-station',
+        name: 'Яндекс Станция',
+        price: 13855
+    })" class="form-button" style="background: #4CAF50; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;">
+                        Добавить в корзину
+                    </button>
+                </div>
+                <img src="../imagesSales/YandexAlisa.jpg" alt="Яндекс Станция"
+                     style="width: 180px; height: 180px; object-fit: cover; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+            </div>
+        </div>
+
+        <!--Датчик движения-->
+        <div class="content-block">
+            <div class="product-card" style="display: flex; align-items: center; gap: 30px; padding: 20px; background: #f8f9fa; border-radius: 10px;">
+                <div style="flex: 1;">
+                    <h2 style="color: black; margin: 0 0 10px 0;">Датчик движения и освещения</h2>
+                    <p style="margin: 0 0 8px 0; color: #666;">Ходите по вашему дому и не беспокойтесь о свете</p>
+                    <p style="margin: 0 0 15px 0; font-size: 18px;"><strong>Цена: 1 990 ₽</strong></p>
+                    <button onclick="addToCart({
+    id: 'yandex-move_datchic',
+    name: 'Яндекс Датчик Движения',
+    price: 1990
+})" class="form-button" style="background: #4CAF50; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;">
+                        Добавить в корзину
+                    </button>
+                </div>
+                <img src="../imagesSales/YandexDatchic.jpg" alt="Яндекс Датчик Движения"
+                     style="width: 180px; height: 180px; object-fit: cover; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+            </div>
+        </div>
+
+        <!--Умный Термостат-->
+        <div class="content-block">
+            <div class="product-card" style="display: flex; align-items: center; gap: 30px; padding: 20px; background: #f8f9fa; border-radius: 10px;">
+                <div style="flex: 1;">
+                    <h2 style="color: black; margin: 0 0 10px 0;">Умный термостат</h2>
+                    <p style="margin: 0 0 8px 0; color: #666;">Пусть температура в вашем доме всегда будет комфортной</p>
+                    <p style="margin: 0 0 15px 0; font-size: 18px;"><strong>Цена: 3 000 ₽</strong></p>
+                    <button onclick="addToCart({
+    id: 'yandex-temperature',
+    name: 'Яндекс Термостат',
+    price: 3000
+})" class="form-button" style="background: #4CAF50; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;">
+                        Добавить в корзину
+                    </button>
+                </div>
+                <img src="../imagesSales/YandexTermometr.jpg" alt="Яндекс Термостат"
+                     style="width: 180px; height: 180px; object-fit: cover; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+            </div>
+        </div>
+
+        <!--Камера-->
+        <div class="content-block">
+            <div class="product-card" style="display: flex; align-items: center; gap: 30px; padding: 20px; background: #f8f9fa; border-radius: 10px;">
+                <div style="flex: 1;">
+                    <h2 style="color: black; margin: 0 0 10px 0;">Умная камера</h2>
+                    <p style="margin: 0 0 8px 0; color: #666;">Теперь ваш дом будет в полной безопасности</p>
+                    <p style="margin: 0 0 15px 0; font-size: 18px;"><strong>Цена: 4 800 ₽</strong></p>
+                    <button onclick="addToCart({
+    id: 'yandex-cam',
+    name: 'Яндекс Камера',
+    price: 4800
+})" class="form-button" style="background: #4CAF50; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;">
+                        Добавить в корзину
+                    </button>
+                </div>
+                <img src="../imagesSales/YandexCam.jpg" alt="Яндекс Камера"
+                     style="width: 180px; height: 180px; object-fit: cover; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+            </div>
+        </div>
+    </div>
+
+    <!-- ___________________________________________________________________________Боковое меню_____________________________________________________________________-->
+    <button class="menu-toggle" id="menuToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <div class="sidebar" id="sidebar">
+        <nav class="sidebar-nav">
+            <a href="../index.html">Главная</a>
+            <a href="../aboutus.html">О нас</a>
+            <a href="../contacts.html">Контакты</a>
+            <a href="../korzina.html">Корзина(<span id="cartCounter">0</span>)</a>
+        </nav>
+    </div>
+
+    <!--__________________________________________________ Кнопка "Вверх"________________________________________ -->
+    <button class="scroll-to-top" title="Вернуться наверх">↑</button>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,196 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Гаджеты 21 века: Развлечения</title>
+    <link rel="stylesheet" href="../css/style1.css">
+    <link rel="icon" type="image/x-icon" href="../icon/i.jpg">
+</head>
+<body>
+    <div class="scrolling-bg"></div>
+    <!-- __________________________________________________Главное меню___________________________________________________-->
+    <div class="content">
+        <nav class="navbar">
+            <a href="../index.html">Главная</a>
+            <a href="../aboutus.html">О нас</a>
+            <a href="../contacts.html">Контакты</a>
+            <a href="../korzina.html">Корзина(<span id="cartCounter">0</span>)</a>
+        </nav>
+
+        <!-- _______________________________________Кнопки каталога_________________________________________ -->
+        <div class="categories-grid">
+            <a href="../catalog/phones.html" class="category-card">
+                <div class="card-image">
+                    <img src="../images/smartphone.png" alt="Смартфоны">
+                </div>
+                <div class="card-title">Смартфоны и Коммуникация</div>
+            </a>
+
+            <a href="../catalog/pc.html" class="category-card">
+                <div class="card-image">
+                    <img src="../images/pc.jpg" alt="Компьютеры">
+                </div>
+                <div class="card-title">Компьютеры и Работа</div>
+            </a>
+
+            <a href="../catalog/audio.html" class="category-card">
+                <div class="card-image">
+                    <img src="../images/audiotechn.jpg" alt="Аудиотехника">
+                </div>
+                <div class="card-title">Аудиотехника</div>
+            </a>
+
+            <a href="../catalog/smart_home.html" class="category-card">
+                <div class="card-image">
+                    <img src="../images/cleverhome.jpg" alt="Умный дом">
+                </div>
+                <div class="card-title">Умный Дом и IoT</div>
+            </a>
+
+            <a href="../catalog/console.html" class="category-card">
+                <div class="card-image">
+                    <img src="../images/console.jpg" alt="Развлечения">
+                </div>
+                <div class="card-title">Развлечения и Медиа</div>
+            </a>
+
+            <a href="../catalog/transport.html" class="category-card">
+                <div class="card-image">
+                    <img src="../images/electroscooter.png" alt="Транспорт">
+                </div>
+                <div class="card-title">Транспорт и Мобильность</div>
+            </a>
+
+            <a href="../catalog/fitness.html" class="category-card">
+                <div class="card-image">
+                    <img src="../images/fitness.jpg" alt="Здоровье">
+                </div>
+                <div class="card-title">Здоровье и Фитнес</div>
+            </a>
+        </div>
+        <!--_________________________________________________________________Основной блок текста_______________________________________________________________________________-->
+        <h1>Немного информации</h1>
+        <div class="content-block">
+            <h2 style="color: black;">Игры и развлечения: Новые миры и эмоции</h2>
+            <p>
+                Современные игровые системы предлагают невероятные возможности для развлечений - от фотореалистичной графики с трассировкой лучей до иммерсивного геймплея в виртуальной реальности. 
+                Игровые консоли нового поколения переопределяют понятие домашних развлечений.
+            </p>
+            <p>
+                Облачный гейминг позволяет играть в требовательные проекты даже на слабых устройствах, транслируя видео с удаленных серверов.
+            </p>
+            <p>
+                Виртуальная реальность переживает настоящий ренессанс - беспроводные шлемы с отслеживанием движений и тактильной обратной связью полностью погружают пользователя в цифровые миры.
+            </p>
+            <p>
+                Портативные игровые устройства, такие как Steam Deck и Nintendo Switch, дарят свободу играть где угодно, объединяя мобильность с консольным качеством игр.
+            </p>
+        </div>
+        <div class="content-block">
+            <p>Далее будут представлены товары, которые, возможно, смогут вас заинтересовать.</p>
+        </div>
+        <!--_______________________________________________________________________Товары__________________________________________________________________-->
+        <!--PlayStation 5-->
+        <div class="content-block">
+            <div class="product-card" style="display: flex; align-items: center; gap: 30px; padding: 20px; background: #f8f9fa; border-radius: 10px;">
+                <div style="flex: 1;">
+                    <h2 style="color: black; margin: 0 0 10px 0;">PlayStation 5</h2>
+                    <p style="margin: 0 0 8px 0; color: #666;">Следующее поколение игровых впечатлений</p>
+                    <p style="margin: 0 0 15px 0; font-size: 18px;"><strong>Цена: 64 990 ₽</strong></p>
+                    <button onclick="addToCart({
+    id: 'ps5-console',
+    name: 'PlayStation 5',
+    price: 64990
+})" class="form-button" style="background: #4CAF50; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;">
+                        Добавить в корзину
+                    </button>
+                </div>
+                <img src="../imagesSales/ps5.jpg" alt="PlayStation 5"
+                     style="width: 180px; height: 180px; object-fit: cover; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+            </div>
+        </div>
+
+        <!--Xbox Series X-->
+        <div class="content-block">
+            <div class="product-card" style="display: flex; align-items: center; gap: 30px; padding: 20px; background: #f8f9fa; border-radius: 10px;">
+                <div style="flex: 1;">
+                    <h2 style="color: black; margin: 0 0 10px 0;">Xbox Series X</h2>
+                    <p style="margin: 0 0 8px 0; color: #666;">Самая мощная консоль от Microsoft</p>
+                    <p style="margin: 0 0 15px 0; font-size: 18px;"><strong>Цена: 59 990 ₽</strong></p>
+                    <button onclick="addToCart({
+    id: 'xbox-series-x',
+    name: 'Xbox Series X',
+    price: 59990
+})" class="form-button" style="background: #4CAF50; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;">
+                        Добавить в корзину
+                    </button>
+                </div>
+                <img src="../imagesSales/xbox.jpg" alt="Xbox Series X"
+                     style="width: 180px; height: 180px; object-fit: cover; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+            </div>
+        </div>
+
+        <!--Nintendo Switch OLED-->
+        <div class="content-block">
+            <div class="product-card" style="display: flex; align-items: center; gap: 30px; padding: 20px; background: #f8f9fa; border-radius: 10px;">
+                <div style="flex: 1;">
+                    <h2 style="color: black; margin: 0 0 10px 0;">Nintendo Switch OLED</h2>
+                    <p style="margin: 0 0 8px 0; color: #666;">Играйте где угодно с ярким OLED-экраном</p>
+                    <p style="margin: 0 0 15px 0; font-size: 18px;"><strong>Цена: 32 990 ₽</strong></p>
+                    <button onclick="addToCart({
+    id: 'switch-oled',
+    name: 'Nintendo Switch OLED',
+    price: 32990
+})" class="form-button" style="background: #4CAF50; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;">
+                        Добавить в корзину
+                    </button>
+                </div>
+                <img src="../imagesSales/switch.jpg" alt="Nintendo Switch OLED"
+                     style="width: 180px; height: 180px; object-fit: cover; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+            </div>
+        </div>
+
+        <!--Meta Quest 3-->
+        <div class="content-block">
+            <div class="product-card" style="display: flex; align-items: center; gap: 30px; padding: 20px; background: #f8f9fa; border-radius: 10px;">
+                <div style="flex: 1;">
+                    <h2 style="color: black; margin: 0 0 10px 0;">Meta Quest 3</h2>
+                    <p style="margin: 0 0 8px 0; color: #666;">Виртуальная реальность без раздражающих проводов</p>
+                    <p style="margin: 0 0 15px 0; font-size: 18px;"><strong>Цена: 69 990 ₽</strong></p>
+                    <button onclick="addToCart({
+    id: 'quest-3',
+    name: 'Meta Quest 3',
+    price: 69990
+})" class="form-button" style="background: #4CAF50; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;">
+                        Добавить в корзину
+                    </button>
+                </div>
+                <img src="../imagesSales/quest3.jpg" alt="Meta Quest 3"
+                     style="width: 180px; height: 180px; object-fit: cover; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+            </div>
+        </div>
+    </div>
+
+    <!-- ___________________________________________________________________________Боковое меню_____________________________________________________________________-->
+    <button class="menu-toggle" id="menuToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <div class="sidebar" id="sidebar">
+        <nav class="sidebar-nav">
+            <a href="../index.html">Главная</a>
+            <a href="../aboutus.html">О нас</a>
+            <a href="../contacts.html">Контакты</a>
+            <a href="../korzina.html">Корзина(<span id="cartCounter">0</span>)</a>
+        </nav>
+    </div>
+
+    <!--__________________________________________________ Кнопка "Вверх"________________________________________ -->
+    <button class="scroll-to-top" title="Вернуться наверх">↑</button>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

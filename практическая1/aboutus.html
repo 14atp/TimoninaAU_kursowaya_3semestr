@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Гаджеты 21 века: О Нас</title>
+    <link rel="stylesheet" href="css/style1.css">
+    <link rel="icon" type="image/x-icon" href="../icon/i.jpg">
+</head>
+<body>
+    <div class="scrolling-bg"></div>
+    <!-- __________________________________________________Главное меню___________________________________________________-->
+    <div class="content">
+        <nav class="navbar">
+            <a href="../index.html">Главная</a>
+            <a href="../aboutus.html">О нас</a>
+            <a href="../contacts.html">Контакты</a>
+            <a href="../korzina.html">Корзина(<span id="cartCounter">0</span>)</a>
+        </nav>
+
+        <h1>О нас</h1>
+
+        <!--___________________________________________________Информация о нас______________________________________________-->
+        <div class="content-block">
+            <p>С помощью нашего ресурса вы сможете узнать больше про гаджеты 21 века. Информация была собрана с многих источников, основным из которых стал <a href="https://rutube.ru/video/cd60f9ca73cb601320e1c24c065cff26" target="_blank" style="color: #4CAF50; text-decoration: none; font-weight: bold;">Википедия:Гаджеты</a></p>
+            <p>Этот сайт был разработан соло-разработчиком. Мы рады, что вам вам было интересно узнать побольше о нас.</p>
+        </div>
+
+        <!--___________________________________________________Наше местоположение______________________________________________-->
+        <div class="content-block">
+            <h2 style="color: black;">Наше местоположение</h2>
+            <p><strong>Адрес:</strong> Волгоградский пр-т., 46/15, Москва</p>
+
+            <!--____________________________________ Карта Google_____________________________________________________-->
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2249.231264625325!2d37.73284797657109!3d55.70730607342084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414ab53e0a1c303f%3A0xccc76d38c31bfc6f!2z0JLRgNCw0YbQuNGPINGB0YDQsNC30L7QstCw0L3QuNGPINC_0YDQvtGC0LXRgtGB0YLQstC10L3QvdGL0Lkg0L_QsNC80Y_RgtC90L7QuSDQv9C10YbQuNC-0L3QsCwg0JzQvtGB0LrQstCw!5e0!3m2!1sru!2sru!4v1700000000000!5m2!1sru!2sru"
+                        height="400"
+                        style="border:0; border-radius: 10px;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- ________________________________________________Боковое меню___________________________________________-->
+    <button class="menu-toggle" id="menuToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <div class="sidebar" id="sidebar">
+        <nav class="sidebar-nav">
+            <a href="../index.html">Главная</a>
+            <a href="../aboutus.html">О нас</a>
+            <a href="../contacts.html">Контакты</a>
+            <a href="../korzina.html">Корзина(<span id="cartCounter">0</span>)</a>
+        </nav>
+    </div>
+
+    <!--__________________________________________________ Кнопка "Вверх"________________________________________ -->
+    <button class="scroll-to-top" title="Вернуться наверх">↑</button>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

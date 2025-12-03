@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Гаджеты 21 века</title>
+    <link rel="stylesheet" href="css/style1.css">
+    <link rel="icon" type="image/x-icon" href="../icon/i.jpg">
+</head>
+<body>
+    <div class="scrolling-bg"></div><!--двигающийся задний фон-->
+    <!-- __________________________________________________Главное меню___________________________________________________-->
+    <div class="content">
+        <nav class="navbar">
+            <a href="../index.html">Главная</a>
+            <a href="../aboutus.html">О нас</a>
+            <a href="../contacts.html">Контакты</a>
+            <a href="../korzina.html">Корзина(<span id="cartCounter">0</span>)</a>
+        </nav>
+
+        <!-- _______________________________________Кнопки каталога_________________________________________ -->
+        <div class="categories-grid">
+            <a href="../catalog/phones.html" class="category-card">
+                <div class="card-image">
+                    <img src="../images/smartphone.png" alt="Смартфоны">
+                </div>
+                <div class="card-title">Смартфоны и Коммуникация</div>
+            </a>
+
+            <a href="../catalog/pc.html" class="category-card">
+                <div class="card-image">
+                    <img src="../images/pc.jpg" alt="Компьютеры">
+                </div>
+                <div class="card-title">Компьютеры и Работа</div>
+            </a>
+
+            <a href="../catalog/audio.html" class="category-card">
+                <div class="card-image">
+                    <img src="../images/audiotechn.jpg" alt="Аудиотехника">
+                </div>
+                <div class="card-title">Аудиотехника</div>
+            </a>
+
+            <a href="../catalog/smart_home.html" class="category-card">
+                <div class="card-image">
+                    <img src="../images/cleverhome.jpg" alt="Умный дом">
+                </div>
+                <div class="card-title">Умный Дом и IoT</div>
+            </a>
+
+            <a href="../catalog/console.html" class="category-card">
+                <div class="card-image">
+                    <img src="../images/console.jpg" alt="Развлечения">
+                </div>
+                <div class="card-title">Развлечения и Медиа</div>
+            </a>
+
+            <a href="../catalog/transport.html" class="category-card">
+                <div class="card-image">
+                    <img src="../images/electroscooter.png" alt="Транспорт">
+                </div>
+                <div class="card-title">Транспорт и Мобильность</div>
+            </a>
+
+            <a href="../catalog/fitness.html" class="category-card">
+                <div class="card-image">
+                    <img src="../images/fitness.jpg" alt="Здоровье">
+                </div>
+                <div class="card-title">Здоровье и Фитнес</div>
+            </a>
+        </div>
+        <!-- _______________________________________________Текст после каталога____________________________________________________________________-->
+        <h1>Вступление</h1>
+        <div class="content-block">
+            <p>С каждым годом технологии развиваются все быстрее. Появляется большое количество новой техники, к каждой из которых нужно не только привыкнуть, но и научится ими пользоваться. Из-за этих сложностей довольно легко запутаться и потеряться в информации.</p>
+            <p>Так давайте вместе изучим новые технологии! Мы постараемся разложить все по полочкам и максимально доходчиво рассказать о том, чем пользуются продвинутые люди.</p>
+        </div>
+        <h1>Начало</h1>
+        <div class="content-block">
+            <p>Прежде всего необходимо отметить, что технологии развиваются очень быстро. Уже завтра может выйти что-то новое, из-за чего информация станет не актуальной.</p>
+            <p>Кажется, совсем недавно люди перешли от кнопочных телефонов и телевизоров-кирпичей к сенсорным легким смартфонам и плоским стильным телевизорам. Стоит оглянуться, 
+            как на на каждом углу мы увидим электро-самокаты с велосипедами, на которых может ездить каждый желающий, нажав несколько кнопок в приложении, такси с яркими рекламными
+            вывесками на их крышах. Начали появляться такси с автопилотом, роботы, работающие в кофейнях и "зебры" в виде проекции на асвальте. Кажется, что мы в будущем.</p>
+            <p>Как бы это ни звуало, но мы и вправду в будущем. Скажи мы челоеку из прошлого, что мы можем видеть друг друга на расстоянии, нам ответят, что мы перечитали сказку
+            с яблочком, катающимся по блюдечку. Такси или личные автомобили с автопилотом будто появились из фантастических фильмов. Теперь с нами может разговаривать 
+            не одушивленный объект, о чем тоже ни раз упоминалось в литературе или художественных фильмах.</p>
+        </div>
+        <h1>Для размышления</h1>
+        <div class="content-block">
+            <p>Думая над всем этим можно подумать, будто люди- предсказатели, ведь задолго до изобретения всего этого это уже упоминалось.</p>
+            <p>Значит ли это, что смотря на нынешние объекты исскуства мы сможем предсказать все, что будет в будущем? Летающие машины, города под водой, общественный транспорт
+            в космосе, капсулы сна... Можно очень долго перечислять все то, что может быть изобретено в будущем</p>
+        </div>
+    </div>
+
+    <!-- ________________________________________________Боковое меню___________________________________________-->
+    <button class="menu-toggle" id="menuToggle"><!--Чисто для того, чтоб кнопка менб выглядела как 3 полоски-->
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <div class="sidebar" id="sidebar">
+        <nav class="sidebar-nav">
+            <a href="../index.html">Главная</a>
+            <a href="../aboutus.html">О нас</a>
+            <a href="../contacts.html">Контакты</a>
+            <a href="../korzina.html">Корзина(<span id="cartCounter">0</span>)</a>
+        </nav>
+    </div>
+
+    <!--__________________________________________________ Кнопка "Вверх"________________________________________ -->
+    <button class="scroll-to-top" title="Вернуться наверх">↑</button>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

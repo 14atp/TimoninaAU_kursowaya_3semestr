@@ -1,0 +1,217 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Гаджеты 21 века: Спорт И Здоровье</title>
+    <link rel="stylesheet" href="../css/style1.css">
+    <link rel="icon" type="image/x-icon" href="../icon/i.jpg">
+</head>
+<body>
+    <div class="scrolling-bg"></div>
+    <!-- __________________________________________________Главное меню___________________________________________________-->
+    <div class="content">
+        <nav class="navbar">
+            <a href="../index.html">Главная</a>
+            <a href="../aboutus.html">О нас</a>
+            <a href="../contacts.html">Контакты</a>
+            <a href="../korzina.html">Корзина(<span id="cartCounter">0</span>)</a>
+        </nav>
+
+        <!-- _______________________________________Кнопки каталога_________________________________________ -->
+        <div class="categories-grid">
+            <a href="../catalog/phones.html" class="category-card">
+                <div class="card-image">
+                    <img src="../images/smartphone.png" alt="Смартфоны">
+                </div>
+                <div class="card-title">Смартфоны и Коммуникация</div>
+            </a>
+
+            <a href="../catalog/pc.html" class="category-card">
+                <div class="card-image">
+                    <img src="../images/pc.jpg" alt="Компьютеры">
+                </div>
+                <div class="card-title">Компьютеры и Работа</div>
+            </a>
+
+            <a href="../catalog/audio.html" class="category-card">
+                <div class="card-image">
+                    <img src="../images/audiotechn.jpg" alt="Аудиотехника">
+                </div>
+                <div class="card-title">Аудиотехника</div>
+            </a>
+
+            <a href="../catalog/smart_home.html" class="category-card">
+                <div class="card-image">
+                    <img src="../images/cleverhome.jpg" alt="Умный дом">
+                </div>
+                <div class="card-title">Умный Дом и IoT</div>
+            </a>
+
+            <a href="../catalog/console.html" class="category-card">
+                <div class="card-image">
+                    <img src="../images/console.jpg" alt="Развлечения">
+                </div>
+                <div class="card-title">Развлечения и Медиа</div>
+            </a>
+
+            <a href="../catalog/transport.html" class="category-card">
+                <div class="card-image">
+                    <img src="../images/electroscooter.png" alt="Транспорт">
+                </div>
+                <div class="card-title">Транспорт и Мобильность</div>
+            </a>
+
+            <a href="../catalog/fitness.html" class="category-card">
+                <div class="card-image">
+                    <img src="../images/fitness.jpg" alt="Здоровье">
+                </div>
+                <div class="card-title">Здоровье и Фитнес</div>
+            </a>
+        </div>
+        <!--_________________________________________________________________Основной блок текста_______________________________________________________________________________-->
+        <h1>Немного информации</h1>
+        <div class="content-block">
+            <h2 style="color: black;">Фитнес-технологии: Здоровье под контролем</h2>
+            <p>
+                Современные фитнес-гаджеты превратили заботу о здоровье в увлекательный и технологичный процесс. От умных часов с отслеживанием ЭКГ до фитнес-браслетов с анализом сна - технологии помогают
+                лучше понимать свое тело и достигать спортивных целей.
+            </p>
+            <p>
+                Умные часы нового поколения оснащены датчиками для измерения уровня кислорода в крови, отслеживания стресса и даже обнаружения возможных проблем с сердечным ритмом. Они стали настоящими 
+                персональными тренерами на запястье.
+            </p>
+            <p>
+                Фитнес-трекеры с GPS и многодневным временем автономной работы точно отслеживают активность в течение всего дня, анализируя шаги, калории, пройденные этажи и качество сна.
+            </p>
+            <p>
+                Умные весы с анализатором состава тела предоставляют детальную информацию о мышечной массе, проценте жира и воды в организме, помогая отслеживать прогресс в тренировках и питании.
+            </p>
+        </div>
+        <div class="content-block">
+            <p>Далее будут представлены товары, которые, возможно, смогут вас заинтересовать.</p>
+        </div>
+        <!--_______________________________________________________________________Товары__________________________________________________________________-->
+        <!--Apple Watch Series 9-->
+        <div class="content-block">
+            <div class="product-card" style="display: flex; align-items: center; gap: 30px; padding: 20px; background: #f8f9fa; border-radius: 10px;">
+                <div style="flex: 1;">
+                    <h2 style="color: black; margin: 0 0 10px 0;">Apple Watch Series 9</h2>
+                    <p style="margin: 0 0 8px 0; color: #666;">Умные часы с измерением вашего пульса</p>
+                    <p style="margin: 0 0 15px 0; font-size: 18px;"><strong>Цена: 41 990 ₽</strong></p>
+                    <button onclick="addToCart({
+    id: 'apple-watch-9',
+    name: 'Apple Watch Series 9',
+    price: 41990
+})" class="form-button" style="background: #4CAF50; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;">
+                        Добавить в корзину
+                    </button>
+                </div>
+                <img src="../imagesSales/appleWatch.jpg" alt="Apple Watch Series 9"
+                     style="width: 180px; height: 180px; object-fit: cover; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+            </div>
+        </div>
+
+        <!--Fitbit Charge 6-->
+        <div class="content-block">
+            <div class="product-card" style="display: flex; align-items: center; gap: 30px; padding: 20px; background: #f8f9fa; border-radius: 10px;">
+                <div style="flex: 1;">
+                    <h2 style="color: black; margin: 0 0 10px 0;">Fitbit Charge 6</h2>
+                    <p style="margin: 0 0 8px 0; color: #666;">Занимайтесь спортом и не беспокойтесь о зарядке</p>
+                    <p style="margin: 0 0 15px 0; font-size: 18px;"><strong>Цена: 19 990 ₽</strong></p>
+                    <button onclick="addToCart({
+    id: 'fitbit-charge6',
+    name: 'Fitbit Charge 6',
+    price: 19990
+})" class="form-button" style="background: #4CAF50; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;">
+                        Добавить в корзину
+                    </button>
+                </div>
+                <img src="../imagesSales/fitbit.jpg" alt="Fitbit Charge 6"
+                     style="width: 180px; height: 180px; object-fit: cover; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+            </div>
+        </div>
+
+        <!--Withings Body+-->
+        <div class="content-block">
+            <div class="product-card" style="display: flex; align-items: center; gap: 30px; padding: 20px; background: #f8f9fa; border-radius: 10px;">
+                <div style="flex: 1;">
+                    <h2 style="color: black; margin: 0 0 10px 0;">Withings Body+</h2>
+                    <p style="margin: 0 0 8px 0; color: #666;">Умные и компактные весы с анализом состава тела</p>
+                    <p style="margin: 0 0 15px 0; font-size: 18px;"><strong>Цена: 12 990 ₽</strong></p>
+                    <button onclick="addToCart({
+    id: 'withings-body-plus',
+    name: 'Withings Body+',
+    price: 12990
+})" class="form-button" style="background: #4CAF50; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;">
+                        Добавить в корзину
+                    </button>
+                </div>
+                <img src="../imagesSales/smartScale.jpg" alt="Withings Body+"
+                     style="width: 180px; height: 180px; object-fit: cover; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+            </div>
+        </div>
+
+        <!--Garmin Forerunner 265-->
+        <div class="content-block">
+            <div class="product-card" style="display: flex; align-items: center; gap: 30px; padding: 20px; background: #f8f9fa; border-radius: 10px;">
+                <div style="flex: 1;">
+                    <h2 style="color: black; margin: 0 0 10px 0;">Garmin Forerunner 265</h2>
+                    <p style="margin: 0 0 8px 0; color: #666;">Спортивные часы, которые отлично подойдут для бегунов</p>
+                    <p style="margin: 0 0 15px 0; font-size: 18px;"><strong>Цена: 49 990 ₽</strong></p>
+                    <button onclick="addToCart({
+    id: 'garmin-265',
+    name: 'Garmin Forerunner 265',
+    price: 49990
+})" class="form-button" style="background: #4CAF50; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;">
+                        Добавить в корзину
+                    </button>
+                </div>
+                <img src="../imagesSales/garmin.jpg" alt="Garmin Forerunner 265"
+                     style="width: 180px; height: 180px; object-fit: cover; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+            </div>
+        </div>
+
+        <!--Oura Ring Gen3-->
+        <div class="content-block">
+            <div class="product-card" style="display: flex; align-items: center; gap: 30px; padding: 20px; background: #f8f9fa; border-radius: 10px;">
+                <div style="flex: 1;">
+                    <h2 style="color: black; margin: 0 0 10px 0;">Oura Ring Gen3</h2>
+                    <p style="margin: 0 0 8px 0; color: #666;">Умное стильное кольцо кольцо для отслеживания сна и активности, благодаря которому вам обзавидуются окружающие</p>
+                    <p style="margin: 0 0 15px 0; font-size: 18px;"><strong>Цена: 34 990 ₽</strong></p>
+                    <button onclick="addToCart({
+    id: 'oura-ring-3',
+    name: 'Oura Ring Gen3',
+    price: 34990
+})" class="form-button" style="background: #4CAF50; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;">
+                        Добавить в корзину
+                    </button>
+                </div>
+                <img src="../imagesSales/ouraRing.jpg" alt="Oura Ring Gen3"
+                     style="width: 180px; height: 180px; object-fit: cover; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+            </div>
+        </div>
+    </div>
+
+    <!-- ___________________________________________________________________________Боковое меню_____________________________________________________________________-->
+    <button class="menu-toggle" id="menuToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <div class="sidebar" id="sidebar">
+        <nav class="sidebar-nav">
+            <a href="../index.html">Главная</a>
+            <a href="../aboutus.html">О нас</a>
+            <a href="../contacts.html">Контакты</a>
+            <a href="../korzina.html">Корзина(<span id="cartCounter">0</span>)</a>
+        </nav>
+    </div>
+
+    <!--__________________________________________________ Кнопка "Вверх"________________________________________ -->
+    <button class="scroll-to-top" title="Вернуться наверх">↑</button>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

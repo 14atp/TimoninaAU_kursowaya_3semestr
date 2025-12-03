@@ -1,0 +1,157 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Гаджеты 21 века: Смартфоны</title>
+    <link rel="stylesheet" href="../css/style1.css">
+    <link rel="icon" type="image/x-icon" href="../icon/i.jpg">
+</head>
+<body>
+    <div class="scrolling-bg"></div>
+    <!-- __________________________________________________Главное меню___________________________________________________-->
+    <div class="content">
+        <nav class="navbar">
+            <a href="../index.html">Главная</a>
+            <a href="../aboutus.html">О нас</a>
+            <a href="../contacts.html">Контакты</a>
+            <a href="../korzina.html">Корзина(<span id="cartCounter">0</span>)</a>
+        </nav>
+
+        <!-- _______________________________________Кнопки каталога_________________________________________ -->
+        <div class="categories-grid">
+            <a href="../catalog/phones.html" class="category-card">
+                <div class="card-image">
+                    <img src="../images/smartphone.png" alt="Смартфоны">
+                </div>
+                <div class="card-title">Смартфоны и Коммуникация</div>
+            </a>
+
+            <a href="../catalog/pc.html" class="category-card">
+                <div class="card-image">
+                    <img src="../images/pc.jpg" alt="Компьютеры">
+                </div>
+                <div class="card-title">Компьютеры и Работа</div>
+            </a>
+
+            <a href="../catalog/audio.html" class="category-card">
+                <div class="card-image">
+                    <img src="../images/audiotechn.jpg" alt="Аудиотехника">
+                </div>
+                <div class="card-title">Аудиотехника</div>
+            </a>
+
+            <a href="../catalog/smart_home.html" class="category-card">
+                <div class="card-image">
+                    <img src="../images/cleverhome.jpg" alt="Умный дом">
+                </div>
+                <div class="card-title">Умный Дом и IoT</div>
+            </a>
+
+            <a href="../catalog/console.html" class="category-card">
+                <div class="card-image">
+                    <img src="../images/console.jpg" alt="Развлечения">
+                </div>
+                <div class="card-title">Развлечения и Медиа</div>
+            </a>
+
+            <a href="../catalog/transport.html" class="category-card">
+                <div class="card-image">
+                    <img src="../images/electroscooter.png" alt="Транспорт">
+                </div>
+                <div class="card-title">Транспорт и Мобильность</div>
+            </a>
+
+            <a href="../catalog/fitness.html" class="category-card">
+                <div class="card-image">
+                    <img src="../images/fitness.jpg" alt="Здоровье">
+                </div>
+                <div class="card-title">Здоровье и Фитнес</div>
+            </a>
+        </div>
+        <!--_________________________________________________________________Основной блок текста_______________________________________________________________________________-->
+        <h1>Немного информации</h1>
+        <div class="content-block">
+            <h2 style="color: black;">Смартфоны: Связь без границ</h2>
+            <p>
+                Современные смартфоны превратились из простых средств связи в мощные многофункциональные устройства,которые стали неотъемлемой частью нашей повседневной жизни. 
+                Они объединяют в себе телефон, компьютер, камеру, навигатор и развлекательный центр.
+            </p>
+            <p>
+                Технологии смартфонов постоянно развиваются: от 5G-связи, обеспечивающей молниеносную скорость интернета, до складывающихся экранов, меняющих представление о мобильности. Камеры
+                смартфонов теперь соперничают с профессиональной фототехникой, а процессоры способны обрабатывать сложнейшие задачи и игры.
+            </p>
+            <p>
+                Особое внимание уделяется автономности - современные аккумуляторы и технологии быстрой зарядки позволяют устройствам работать целый день даже при интенсивном использовании.
+            </p>
+            <p>
+                Смартфоны стали центральным узлом управления другими гаджетами, объединяя умный дом, носимые устройства и персональные аксессуары в единую экосистему.
+            </p>
+        </div>
+        <div class="content-block">
+            <p>Далее будут представлены товары, которые, возможно, смогут вас заинтересовать.</p>
+        </div>
+        <!--_______________________________________________________________________Товары__________________________________________________________________-->
+        <!--iPhone-->
+        <div class="content-block">
+            <div class="product-card" style="display: flex; align-items: center; gap: 30px; padding: 20px; background: #f8f9fa; border-radius: 10px;">
+                <div style="flex: 1;">
+                    <h2 style="color: black; margin: 0 0 10px 0;">iPhone 15 Pro</h2>
+                    <p style="margin: 0 0 8px 0; color: #666;">Мощность и элегантность в ваших руках</p>
+                    <p style="margin: 0 0 15px 0; font-size: 18px;"><strong>Цена: 99 990 ₽</strong></p>
+                    <button onclick="addToCart({
+    id: 'iphone-15-pro',
+    name: 'iPhone 15 Pro',
+    price: 99990
+})" class="form-button" style="background: #4CAF50; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;">
+                        Добавить в корзину
+                    </button>
+                </div>
+                <img src="../imagesSales/iphon15.jpg" alt="iPhone 15 Pro"
+                     style="width: 180px; height: 180px; object-fit: cover; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+            </div>
+        </div>
+
+        <!--Samsung-->
+        <div class="content-block">
+            <div class="product-card" style="display: flex; align-items: center; gap: 30px; padding: 20px; background: #f8f9fa; border-radius: 10px;">
+                <div style="flex: 1;">
+                    <h2 style="color: black; margin: 0 0 10px 0;">Samsung Galaxy S24</h2>
+                    <p style="margin: 0 0 8px 0; color: #666;">Инновации в каждом пикселе</p>
+                    <p style="margin: 0 0 15px 0; font-size: 18px;"><strong>Цена: 79 990 ₽</strong></p>
+                    <button onclick="addToCart({
+    id: 'samsung-s24',
+    name: 'Samsung Galaxy S24',
+    price: 79990
+})" class="form-button" style="background: #4CAF50; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;">
+                        Добавить в корзину
+                    </button>
+                </div>
+                <img src="../imagesSales/samsungS24.jpg" alt="Samsung Galaxy S24"
+                     style="width: 180px; height: 180px; object-fit: cover; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+            </div>
+        </div>
+    </div>
+
+    <!-- ___________________________________________________________________________Боковое меню_____________________________________________________________________-->
+    <button class="menu-toggle" id="menuToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <div class="sidebar" id="sidebar">
+        <nav class="sidebar-nav">
+            <a href="../index.html">Главная</a>
+            <a href="../aboutus.html">О нас</a>
+            <a href="../contacts.html">Контакты</a>
+            <a href="../korzina.html">Корзина(<span id="cartCounter">0</span>)</a>
+        </nav>
+    </div>
+
+    <!--__________________________________________________ Кнопка "Вверх"________________________________________ -->
+    <button class="scroll-to-top" title="Вернуться наверх">↑</button>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

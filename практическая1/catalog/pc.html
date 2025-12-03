@@ -1,0 +1,174 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Гаджеты 21 века: Компьютеры И Работа</title>
+    <link rel="stylesheet" href="../css/style1.css">
+    <link rel="icon" type="image/x-icon" href="../icon/i.jpg">
+</head>
+<body>
+    <div class="scrolling-bg"></div>
+    <!-- __________________________________________________Главное меню___________________________________________________-->
+    <div class="content">
+        <nav class="navbar">
+            <a href="../index.html">Главная</a>
+            <a href="../aboutus.html">О нас</a>
+            <a href="../contacts.html">Контакты</a>
+            <a href="../korzina.html">Корзина(<span id="cartCounter">0</span>)</a>
+        </nav>
+
+        <!-- _______________________________________Кнопки каталога_________________________________________ -->
+        <div class="categories-grid">
+            <a href="../catalog/phones.html" class="category-card">
+                <div class="card-image">
+                    <img src="../images/smartphone.png" alt="Смартфоны">
+                </div>
+                <div class="card-title">Смартфоны и Коммуникация</div>
+            </a>
+
+            <a href="../catalog/pc.html" class="category-card">
+                <div class="card-image">
+                    <img src="../images/pc.jpg" alt="Компьютеры">
+                </div>
+                <div class="card-title">Компьютеры и Работа</div>
+            </a>
+
+            <a href="../catalog/audio.html" class="category-card">
+                <div class="card-image">
+                    <img src="../images/audiotechn.jpg" alt="Аудиотехника">
+                </div>
+                <div class="card-title">Аудиотехника</div>
+            </a>
+
+            <a href="../catalog/smart_home.html" class="category-card">
+                <div class="card-image">
+                    <img src="../images/cleverhome.jpg" alt="Умный дом">
+                </div>
+                <div class="card-title">Умный Дом и IoT</div>
+            </a>
+
+            <a href="../catalog/console.html" class="category-card">
+                <div class="card-image">
+                    <img src="../images/console.jpg" alt="Развлечения">
+                </div>
+                <div class="card-title">Развлечения и Медиа</div>
+            </a>
+
+            <a href="../catalog/transport.html" class="category-card">
+                <div class="card-image">
+                    <img src="../images/electroscooter.png" alt="Транспорт">
+                </div>
+                <div class="card-title">Транспорт и Мобильность</div>
+            </a>
+
+            <a href="../catalog/fitness.html" class="category-card">
+                <div class="card-image">
+                    <img src="../images/fitness.jpg" alt="Здоровье">
+                </div>
+                <div class="card-title">Здоровье и Фитнес</div>
+            </a>
+        </div>
+        <!--_________________________________________________________________Основной блок текста_______________________________________________________________________________-->
+        <h1>Немного информации</h1>
+        <div class="content-block">
+            <h2 style="color: black;">Современные компьютеры: Мощь и эффективность</h2>
+            <p>Современные персональные компьютеры представляют собой мощные вычислительные системы, способные решать задачи любой сложности. 
+            Игровые ПК оснащаются видеокартами с трассировкой лучей в реальном времени, позволяя погрузиться в виртуальные миры с кинематографической графикой. Процессоры последнего 
+            поколения с 16 и более ядрами обеспечивают молниеносную работу в многозадачном режиме.</p>
+
+            <p>Ультрабуки сочетают в себе портативность и производительность, предлагая до 20 часов автономной работы при толщине корпуса менее 1.5 см. 
+            Моноблоки стали элегантным решением для дома и офиса, объединяя мощный компьютер и качественный дисплей в одном устройстве. Рабочие станции для 
+            профессионалов поддерживают до 128 ГБ оперативной памяти и специализированные видеокарты для 3D-моделирования и видеомонтажа.</p>
+
+            <p>Технологии охлаждения эволюционировали до жидкостных систем, обеспечивающих стабильную работу даже при экстремальных нагрузках. Накопители NVMe
+            SSD предлагают скорость чтения до 7000 МБ/с, сокращая время загрузки до секунд. Периферийные устройства также не стоят на месте - механические клавиатуры 
+            с оптическими свитчами и игровые мыши с разрешением 26000 DPI становятся новым стандартом.</p>
+        </div>
+        <div class="content-block">
+            <p>Далее будут представлены товары, которые, возможно, смогут вас заинтересовать.</p>
+        </div>
+        <!--_______________________________________________________________________Товары__________________________________________________________________-->
+        <!--Видеокарта-->
+        <div class="content-block">
+            <div class="product-card" style="display: flex; align-items: center; gap: 30px; padding: 20px; background: #f8f9fa; border-radius: 10px;">
+                <div style="flex: 1;">
+                    <h2 style="color: black; margin: 0 0 10px 0;">Видеокарта GeForce RTX 5060</h2>
+                    <p style="margin: 0 0 8px 0; color: #666;">Играйте в топовые игры с лучшими настройками графики</p>
+                    <p style="margin: 0 0 15px 0; font-size: 18px;"><strong>Цена: 42 027 ₽</strong></p>
+                    <button onclick="addToCart({
+        id: 'pc-rtx5060',
+        name: 'Видеокарта RTX5060',
+        price: 42027
+    })" class="form-button" style="background: #4CAF50; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;">
+                        Добавить в корзину
+                    </button>
+                </div>
+                <img src="../imagesSales/pc-rtx5060.jpg" alt="Видеокарта RTX5060"
+                     style="width: 180px; height: 180px; object-fit: cover; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+            </div>
+        </div>
+
+        <!--Ультрабук-->
+        <div class="content-block">
+            <div class="product-card" style="display: flex; align-items: center; gap: 30px; padding: 20px; background: #f8f9fa; border-radius: 10px;">
+                <div style="flex: 1;">
+                    <h2 style="color: black; margin: 0 0 10px 0;">Ультрабук Acer Swift Go</h2>
+                    <p style="margin: 0 0 8px 0; color: #666;">Работайте и играйте в любимые игры вне дома</p>
+                    <p style="margin: 0 0 15px 0; font-size: 18px;"><strong>Цена: 168 300 ₽</strong></p>
+                    <button onclick="addToCart({
+    id: 'pc-ultrabook',
+    name: 'Ультрабук Acer Swift Go',
+    price: 168300
+})" class="form-button" style="background: #4CAF50; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;">
+                        Добавить в корзину
+                    </button>
+                </div>
+                <img src="../imagesSales/pc-ultrabook.jpg" alt="Ультрабук Acer Swift Go"
+                     style="width: 180px; height: 180px; object-fit: cover; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+            </div>
+        </div>
+
+        <!--Механическая клавиатура-->
+        <div class="content-block">
+            <div class="product-card" style="display: flex; align-items: center; gap: 30px; padding: 20px; background: #f8f9fa; border-radius: 10px;">
+                <div style="flex: 1;">
+                    <h2 style="color: black; margin: 0 0 10px 0;">Клавиатура Defender</h2>
+                    <p style="margin: 0 0 8px 0; color: #666;">Пишите любой текст с удовольствием</p>
+                    <p style="margin: 0 0 15px 0; font-size: 18px;"><strong>Цена: 1 790 ₽</strong></p>
+                    <button onclick="addToCart({
+    id: 'pc-keypad',
+    name: 'Клавиатура Defender',
+    price: 1790
+})" class="form-button" style="background: #4CAF50; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;">
+                        Добавить в корзину
+                    </button>
+                </div>
+                <img src="../imagesSales/pc-keypad.jpg" alt="Клавиатура Defender"
+                     style="width: 180px; height: 180px; object-fit: cover; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+            </div>
+        </div>
+    </div>
+
+    <!-- ___________________________________________________________________________Боковое меню_____________________________________________________________________-->
+    <button class="menu-toggle" id="menuToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <div class="sidebar" id="sidebar">
+        <nav class="sidebar-nav">
+            <a href="../index.html">Главная</a>
+            <a href="../aboutus.html">О нас</a>
+            <a href="../contacts.html">Контакты</a>
+            <a href="../korzina.html">Корзина(<span id="cartCounter">0</span>)</a>
+        </nav>
+    </div>
+
+    <!--__________________________________________________ Кнопка "Вверх"________________________________________ -->
+    <button class="scroll-to-top" title="Вернуться наверх">↑</button>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

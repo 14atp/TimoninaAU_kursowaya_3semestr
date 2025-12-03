@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Гаджеты 21 века: Вход в мой аккаунт</title>
+    <link rel="stylesheet" href="../css/style1.css">
+    <link rel="icon" type="image/x-icon" href="../icon/i.jpg">
+</head>
+<body>
+    <div class="scrolling-bg"></div>
+    <!-- __________________________________________________Главное меню___________________________________________________-->
+    <div class="content">
+        <nav class="navbar">
+            <a href="../index.html">Главная</a>
+            <a href="../aboutus.html">О нас</a>
+            <a href="../contacts.html">Контакты</a>
+            <a href="../korzina.html">Корзина(<span id="cartCounter">0</span>)</a>
+        </nav>
+        <!--_______________________________________________________Корзина__________________________________________________-->
+        <div class="content-block">
+            <div id="cartItems">
+                <!-- Товары появятся здесь -->
+            </div>
+
+            <div style="margin-top: 20px; padding: 20px; background: #f8f9fa; border-radius: 10px; color: black;">
+                <h3 style="color: black;">Итого: <span id="cartTotal">0</span> ₽</h3>
+                <button onclick="checkout()" class="form-button" style="background: #2196F3; color: white;">
+                    Оформить заказ
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ________________________________________________Боковое меню___________________________________________-->
+    <button class="menu-toggle" id="menuToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <div class="sidebar" id="sidebar">
+        <nav class="sidebar-nav">
+            <a href="../index.html">Главная</a>
+            <a href="../aboutus.html">О нас</a>
+            <a href="../contacts.html">Контакты</a>
+            <a href="../korzina.html">Корзина(<span id="cartCounter">0</span>)</a>
+        </nav>
+    </div>
+
+    <!--__________________________________________________ Кнопка "Вверх"________________________________________ -->
+    <button class="scroll-to-top" title="Вернуться наверх">↑</button>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
